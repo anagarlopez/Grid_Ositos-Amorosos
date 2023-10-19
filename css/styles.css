@@ -1,47 +1,65 @@
+body {
+    width: 1024px;
+    margin: auto;
+}
+
 #container {
     display: grid;
+    grid-template-columns: repeat(2 1fr)
+    grid-auto-rows: 100px 100px 100px;
     grid-gap: 20px;
 }
 
-.item1{
-    color: azure ;
-}
-
-.item2{
-
-}
-
-.item3{
+.item1 {
     background-image: ;
+    border: black 2px solid;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    vertical-align: middle;
 }
 
-.item4{
-    background-image: ;
+.item2 {
+    grid-area: 1 / 6 / 2 / 11;
+    background: url(/assets/lemon-butterflyfish-380037_1280.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border: black 2px solid;
+    ;
 }
 
-.item5{
-    background-image: ;
+.item3 {
+    border: black 2px solid;
 }
 
-.item6{
-    background-image: ;
+.item4 {
+    border: black 2px solid;
 }
 
-.item7{
-    background-image: ;
+.item5 {
+    border: black 2px solid;
 }
 
-.item8{
-    background-image: ;
+.item6 {
+    border: black 2px solid;
 }
 
-.item9{
-    background-image: ;
+.item7 {
+    border: black 2px solid;
 }
 
-.item10{
-    background-image: ;
+.item8 {
+    border: black 2px solid;
 }
-.item11{
-    background-image: ;
+
+.item9 {
+    border: black 2px solid;
+}
+
+.item10 {
+    border: black 2px solid;
+}
+
+.item11 {
+    border: black 2px solid;
 }
